@@ -19,6 +19,7 @@ def get_color_for_class(class_index):
 
 
 yolo_model = YOLO('sugibronze.pt')
+#feel free to steal this below if you want to print bounding boxes onto a live viewport of your screen, lots of lag for some reason
 try:
     while True:
         screenshot = pyautogui.screenshot()
